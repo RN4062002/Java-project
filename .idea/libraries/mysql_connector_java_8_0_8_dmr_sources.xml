@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-8.0.8-dmr-sources">
+    <CLASSES>
+      <root url="jar://E:/code/jar files/jcalendar-tz-1.3.3-4.jar!/" />
+      <root url="jar://E:/code/jar files/mysql-connector-java-8.0.28.jar!/" />
+      <root url="jar://E:/code/jar files/rs2xml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/code/jar files/rs2xml.jar!/src" />
+    </SOURCES>
+  </library>
+</component>
