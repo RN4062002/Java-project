@@ -1,0 +1,15 @@
+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
+
+show databases;
+
+use healtcaresupport;
+
+create table login(username varchar(20),password varchar(20));
+create table register(fname varchar(20),lname varchar(20),username varchar(20),address varchar(20),password varchar(20),confirmpass varchar(20));
+create table diagnosis(dappointed varchar(20),symptoms varchar(20),diagnosis varchar(20),medicines varchar(20),admission varchar(20),Id int NOT NULL , FOREIGN KEY(Id) REFERENCES newPatient(patientId) );
+create table bill(days varchar(20),charges varchar(20),fees varchar(20),scharges varchar(20),tamount varchar(20)); 
+create table emp( name varchar(20), lastname varchar(20),username varchar(20),password varchar(20),address varchar(30),repassword varchar(20));
+create table newPatient( fname varchar(20),lname varchar(20),dob varchar(20),age varchar(20),address varchar(20),phone varchar(20),email varchar(20),bgroup varchar(20),gender varchar(20),adhar varchar(20),patientId int PRIMARY KEY);
+drop table newPatient;
+insert into login values('admin','1234');
+select *from bill;
